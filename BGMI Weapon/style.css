@@ -1,0 +1,110 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: url("https://wallpapers.com/images/hd/pubg-battlegrounds-4k-38duqx21hhulr5yh.jpg");
+/*    background-size:100%;*/
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    display: grid;
+}
+
+.container .card {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 2px 3px 35px -7px rgba(0, 0, 0, .52);
+}
+
+.card .top {
+    width: auto;
+    height: 80px;
+    background-color: #e73f0c;
+    position: relative;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 800;
+    font-size: x-large;
+    font-family: 'Teko', sans-serif;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: -40px;
+    position: relative;
+    box-shadow: 2px 3px 35px -7px rgba(0, 0, 0, .52);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    margin-top: 5px;
+    transition-duration: 0.5s;
+}
+
+img:hover {
+    transform: scale(2.5);
+}
+
+.text {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+}
+
+p {
+    font-size: 17px;
+    margin-top: -15px;
+    color: #5b5b5b;
+    font-weight: 600;
+}
+
+table {
+        width: 75%;
+    text-align: initial;
+    margin: 0% 15%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+table tr td {
+    margin:10px;
+}
+
+#name {
+    text-shadow: 1px 1px 1.5px blue;
+}
+
+#select {
+    text-align: center;
+    width: 70%;
+    margin: 5% auto;
+    display: flex;
+    font-size: 12px;
+}

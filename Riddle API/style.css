@@ -1,0 +1,23 @@
+.contain {
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+  padding: 2rem;
+}
+.btn {
+    border: 0.5px solid;
+    margin: auto 40%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: #1ABC9C;
+    box-shadow:2px 2px grey;
+}
+.para1 {
+  font-size: 2rem;
+  height: 30vh;
+}
+.para2 {
+  color: black;
+  height:30vh;
+  font-size: 1.5rem;
+}

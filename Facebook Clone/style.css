@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eaebef;
+	font-family: 'Roboto Serif', serif;
+}
+
+.navbar {
+	width: 100%;
+	height: 5vh;
+	background-color: #4469b0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar div {
+	display: flex;
+}
+
+.navbar ul {
+	display: flex;
+	list-style: none;
+}
+
+.navbar ul li {
+	margin: 0 5px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navbar ul img {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+
+.navbar ul img:hover {
+	transform: scale(1.4);
+}
+
+.navbar svg {
+	margin: 0 10px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+.navbar input {
+	width: 40vw;
+}
+
+.navbar svg:hover {
+	filter: invert(100%);
+}
+
+.contain {
+	display: grid;
+	grid-template-columns: 20% auto 30%;
+	grid-gap: 0.5rem;
+}
+
+.grid {
+	height: 93vh;
+}
+
+#center,
+#right {
+	margin-top: 2vh;
+}
+
+#right {
+	margin-right: 2%;
+}
+
+#left {
+	margin: 2vh 15%;
+	height: 91vh;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+}
+
+#main li {
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+#left ul {
+	list-style: none;
+	display: flex;
+}
+
+#left ul img {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+
+#left ul img:hover {
+	transform: scale(1.4);
+}
+
+#link {
+	justify-content: space-between;
+}
+
+#link li a {
+	text-decoration: none;
+	color: blue;
+}
+
+#mind {
+	width: 100%;
+	background-color: white;
+	height: 25vh;
+}
+
+#mind ul li {
+	margin: 2%;
+}
+
+#center ul {
+	list-style: none;
+	display: flex;
+}
+
+#center ul img {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	transition-duration: 0.5s;
+}
+
+#center ul img:hover {
+	transform: scale(1.4);
+}
+
+#centercontent {
+	height: 61vh;
+	background-color: white;
+	margin-top: 2%;
+	padding: 2%;
+}
+
+#post ul {
+	justify-content: space-between;
+}
+
+#story {
+	width: 100%;
+	background-color: white;
+	height: 15vh;
+	padding-top: 5px;
+}
+
+#story svg {
+	cursor: pointer;
+}
+
+#story ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#story ul li {
+	margin: 0 2%;
+}
+
+#story #storysymbol {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#rightgroups {
+	width: 95%;
+	background-color: white;
+	height: 73vh;
+	margin-top: 2%;
+	padding: 10px;
+}
+
+#rightgroups ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.groupitem {
+	width: 100%;
+	background-color: white;
+	height: 20vh;
+	margin-top: 2%;
+}
+
+.groupitem img {
+	width: 100%;
+	height: 65%;
+}
+
+#groupflex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.groupitem button {
+	padding: 2px;
+	width: 70px;
+	cursor: pointer;
+}

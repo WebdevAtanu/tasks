@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	font-family: "Play", sans-serif;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+	background: linear-gradient(180deg, #f10aa0, #560fd5);
+	opacity: 0.5;
+	backdrop-filter: blur(5);
+}
+
+#passwordBlock {
+	position: absolute;
+	width: 30vw;
+	height: 20vh;
+	left: 30%;
+	top: 15%;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 0.5px solid black;
+	background: white;
+	padding: 3rem;
+	border-radius: 10px;
+}
+
+#inp,
+button {
+	padding: 0.5rem;
+	margin: 0.5rem;
+	font-family: "Play", sans-serif;
+}
+
+button {
+	cursor: pointer;
+	font-family: "Play", sans-serif;
+	background: #ff00001a;
+	border: 0.5px dashed;
+	color:red;
+	transition:all 0.5s;
+	&:hover{
+		background: #49ff001a;
+    	color: #18291d;
+	}
+}
+
+.blurring {
+	filter: blur(10px);
+}
+
+#like {
+	margin-left: 30%;
+}
+
+.my_lock {
+	background: #ff000017;
+	color: red;
+	padding: 0.5rem;
+	border-radius: 50%;
+}

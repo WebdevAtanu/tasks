@@ -1,0 +1,42 @@
+body {
+  background-color: #ad6a13;
+  overflow: hidden;
+}
+
+.dot {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose2.png);
+  background-size: 100% 100%;
+}
+
+.dot2 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose.png);
+  background-size: 100% 100%;
+}
+
+.dot3 {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background: url(http://img.babathe.com/upload/specialDisplay/htmlImage/2019/20190104_rose3.png);
+  background-size: 100% 100%;
+}
+
+.myimg {
+  width: 50%;
+  margin: auto;
+}
+
+#image {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+  border-radius: 10px;
+  top: 15%;
+  left: 35%;
+}

@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+}
+
+.partition {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.left, .right {
+    height: 100vh;
+    width: 100%;
+}
+
+.nums {
+    width: 100%;
+    margin: 0px;
+    word-wrap: break-word;
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+    font-family: 'VT323', monospace;
+}
+
+.main {
+    margin: 0px 20px;
+    border: 1px solid green;
+    padding: 10px;
+    height: 90vh;
+}
+
+.main::before {
+    content: "";
+    background: url('https://cdn3.vectorstock.com/i/1000x1000/34/32/hacker-in-dark-vector-33643432.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+h3 {
+    color: white;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    margin-top: 0;
+}
+
+.inp {
+    background-color: black;
+    color: green;
+    font-size: 20px;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'VT323', monospace;
+    width: 46%;
+}
+
+::placeholder {
+    color: green;
+}
+
+#btn {
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: green;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 100px;
+    font-family: 'VT323', monospace;
+}
+
+.psize {
+    font-size: 15px;
+    margin: 0 0;
+}
+
+#prog {
+    width: 95%;
+    height: 20px;
+    color: green;
+    display: none;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#prog1 {
+    width: 40%;
+    height: 10px;
+    color: green;
+    display: none;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#prog2 {
+    width: 40%;
+    height: 10px;
+    color: green;
+    display: none;
+    background-color: green;
+    margin-top: 10px;
+}
+
+.psize {
+    font-size: 25px;
+    font-family: 'VT323', monospace;
+    color: green;
+    margin-top: 20px;
+}
+
+h3 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+}

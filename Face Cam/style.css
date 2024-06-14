@@ -1,0 +1,17 @@
+#buttons {
+	text-align: center;
+
+	& button {
+		padding: 1rem;
+		border: 0.1px solid #0000008f;
+		margin: 0.5rem;
+		box-shadow: 2px 2px grey;
+		cursor: pointer;
+
+		&:active {
+			box-shadow: none;
+		}
+
+	}
+
+}

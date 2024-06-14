@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Face Cam</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<video id="webcam" autoplay playsinline width="640" height="480"></video>
+		<canvas id="canvas"></canvas>
+		<audio id="snapSound" src="snap.wav" preload = "auto"></audio>
+		<div id="buttons">
+			<button id="startBtn">Start</button>
+			<button id="snapBtn">Snapshot</button>
+			<button id="stopBtn">Stop</button>
+		</div>
+	</body>
+<script src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+<script src="app.js"></script>
+</html>

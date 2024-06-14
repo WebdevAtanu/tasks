@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Backlight Control</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="theSlider">
+			<input type="range" min="0" max="100" id="slider" value="50" step="1" onchange="myfunc()">
+		</div>
+		<div id="theImage">
+			<img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/04/windows-11-brightness-issue.jpg"/>
+			<div id="overlay">
+			</div>
+		</div>
+		
+	</body>
+	<script src="app.js"></script>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converter</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+      <div class="container">
+        <h2>Converter</h2>
+        <label for="select">Select operation</label>
+        
+        <select name="select" id="select" onchange="func()">
+          <option selected disabled>Select</option>
+          <option value="Weight">Weight</option>
+          <option value="Height">Height</option>
+          <option value="Length">Length</option>
+          <option value="Temp">Temperature</option>
+        </select>
+        
+        <div class="input-wrapper">
+          <h4 id="val">*</h4>
+          <input type="number" id="inpval" value="0" />
+        </div>
+        <div class="input-wrapper">
+          <h4 id="res">*</h4>
+          <input type="number" id="inpres" />
+        </div>
+      </div>
+      <!--  <div class="container">
+        <h2>Height Converter</h2>
+        <div class="input-wrapper">
+          <label for="ft">Foot:</label>
+          <input type="number" id="ft" value="10" />
+        </div>
+        <div class="input-wrapper">
+          <label for="cm">Centimeter:</label>
+          <input type="number" id="cm" />
+        </div>
+      </div>
+      <div class="container">
+        <h2>Length Converter</h2>
+        <div class="input-wrapper">
+          <label for="km">Kilometer</label>
+          <input type="number" id="km" value="10" />
+        </div>
+        <div class="input-wrapper">
+          <label for="m">Centimeter:</label>
+          <input type="number" id="m" />
+        </div>
+      </div> -->
+      <script src="script.js"></script>
+    </body>
+  </html>

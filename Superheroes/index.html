@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Superheroes</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="contain">
+			<div class="grid">
+				<div id="topleft">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIwGU48VmJgJECeUAtcLCW1RIjBjtDS81sqA&usqp=CAU" id="imgsrc">
+				</div>
+				<div id="topright">
+					<div id="data">
+						<h1 id="name"> </h1>
+						<div class="sec">
+							<h3>Biography</h3>
+							<p>Real name:--<span class="para" id="fname"> </span></p>
+							<p>Alias:--<span class="para" id="alias"> </span></p>
+							<p>Alignment:--<span class="para" id="align"> </span></p>
+							<p>Occupation:--<span class="para" id="occ"> </span></p>
+							<p>Base:--<span class="para" id="base"> </span></p>
+							<p>Publisher:--<span class="para" id="comic"> </span></p>
+						</div>
+						<div class="sec">
+							<table>
+								<tr><th colspan="2" style="color:darkblue;">Powerstats</th></tr>
+								<tr><td>Intelligence</td><td id="intel" class="stat"> </td></tr>
+								<tr><td>Strength</td><td id="str" class="stat"> </td></tr>
+								<tr><td>Durability</td><td id="dur" class="stat"> </td></tr>
+								<tr><td>Speed</td><td id="spd" class="stat"> </td></tr>
+								<tr><td>Power</td><td id="pow" class="stat"> </td></tr>
+								<tr><td>Combat</td><td id="cbt" class="stat"> </td></tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="bottomleft" id="bottom">
+					<div class="icons">
+						<button class="iconbtn" value="732"><img src="btns/iron.png" alt=""></button>
+						<button class="iconbtn" value="149"><img src="btns/captain.png" alt=""></button>
+						<button class="iconbtn" value="659"><img src="btns/thor.png" alt=""></button>
+						<button class="iconbtn" value="620"><img src="btns/spider.png" alt=""></button>
+						<button class="iconbtn"value="332"><img src="btns/hulk.jpg" alt=""></button>
+						<button class="iconbtn" value="201"><img src="btns/dare.png" alt=""></button>
+						<button class="iconbtn" value="106"><img src="btns/panther.png" alt=""></button>
+						<button class="iconbtn" value="213"><img src="btns/dead.png" alt=""></button>
+					</div>
+					<div class="icons">
+						<button class="iconbtn" value="70"><img src="btns/bat.png" alt=""></button>
+						<button class="iconbtn" value="38"><img src="btns/aqua.jpg" alt=""></button>
+						<button class="iconbtn" value="644"><img src="btns/super.png" alt=""></button>
+						<button class="iconbtn" value="265"><img src="btns/flash.png" alt=""></button>
+						<button class="iconbtn" value="298"><img src="btns/arrow.jpg" alt=""></button>
+						<button class="iconbtn" value="194"><img src="btns/cyborg.png" alt=""></button>
+						<button class="iconbtn" value="491"><img src="btns/nightwing.png" alt=""></button>
+						<button class="iconbtn" value="720"><img src="btns/wonder.png" alt=""></button>
+					</div>
+					
+					<button onclick="fun()" id="btn"><img src="btns/random.png" alt=""></button>
+					
+					<input type="text" id="sname" placeholder="Character name">
+					<button id="namebtn" onclick="namesearch()"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JDE0e-Y4LERONV8SkvA7nwhZzKqOPWlM9g&usqp=CAU" alt=""></button>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="app.js"></script>
+</html>

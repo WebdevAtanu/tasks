@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	display: grid;
+	place-content: center;
+	background: #1d4d46;
+}
+
+.gallery {
+	--size: 250px;
+	display: grid;
+	transform-style: preserve-3d;
+	--p: perspective(calc(2.5*var(--size)));
+	animation: rotate 15s infinite cubic-bezier(.5, -1.5, .5, 2.5);
+}
+
+.gallery img {
+	grid-area: 1/1;
+	width: var(--size);
+	aspect-ratio: 1;
+	object-fit: cover;
+	transform: var(--t, ) translateZ(calc(var(--size)/2));
+}
+
+.gallery img:nth-child(2) {
+	--t: rotateX(-90deg)
+}
+
+.gallery img:nth-child(3) {
+	--t: rotateY(90deg)
+}
+
+.gallery img:nth-child(4) {
+	--t: rotateX(180deg) rotate(90deg)
+}
+
+.gallery img:nth-child(5) {
+	--t: rotateX(90deg)
+}
+
+.gallery img:nth-child(6) {
+	--t: rotateY(-90deg)
+}
+
+@keyframes rotate {
+	0%,
+	3% {
+		transform: var(--p) rotate3d(0, 0, 0, 0deg)
+	}
+
+	14%,
+	19% {
+		transform: var(--p) rotate3d(-1, 1, 0, 180deg)
+	}
+
+	31%,
+	36% {
+		transform: var(--p) rotate3d(0, -1, 0, 90deg)
+	}
+
+	47%,
+	52% {
+		transform: var(--p) rotate3d(1, 0, 0, 90deg)
+	}
+
+	64%,
+	69% {
+		transform: var(--p) rotate3d(1, 0, 0, -90deg)
+	}
+
+	81%,
+	86% {
+		transform: var(--p) rotate3d(0, 1, 0, 90deg)
+	}
+
+	97%,
+	100% {
+		transform: var(--p) rotate3d(0, 0, 0, 0deg)
+	}
+
+}

@@ -1,0 +1,33 @@
+#theSlider {
+	display: inline-block;
+	position: fixed;
+	top: 5%;
+	right: 5%;
+}
+
+input[type="range"] {
+	writing-mode: vertical-rl;
+	direction: rtl;
+}
+
+#theImage {
+	width: 85vw;
+	height: 85vh;
+	position: relative;
+
+	& img {
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+#overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #2d2a2aa6;
+	opacity: 0.5;
+}

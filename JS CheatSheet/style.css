@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	background: black;
+	color: white;
+	font-family: math;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.contain {
+	width: 70vw;
+	margin: 5px auto;
+}
+
+.contain ol {
+	padding: 5px;
+	font-family: math;
+}
+
+.contain ol li {
+	list-style: none;
+}
+
+.toolbar-item button {
+	cursor: pointer;
+}

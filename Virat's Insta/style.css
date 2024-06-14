@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: brown;
+    font-family: 'Roboto Slab', serif;
+}
+
+#phone {
+    height: 93vh;
+    width: 25vw;
+    border: 15px solid black;
+    border-radius: 3rem;
+    margin: 1% auto;
+    background: white;
+}
+
+#cam {
+    background: black;
+    height: 20px;
+    width: 65px;
+    margin: 10px auto;
+    border-radius: 60px;
+}
+
+.buttons {
+    background: black;
+    position: absolute;
+    width: 3px;
+}
+
+#power {
+    top: 31%;
+    right: 508px;
+    height: 65px;
+}
+
+#vup {
+    top: 29%;
+    left: 508px;
+    height: 40px;
+}
+
+#vdown {
+    top: 36%;
+    left: 508px;
+    height: 40px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+#top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#top ul li {
+    margin-left: 5px;
+}
+
+#top ul img {
+    width: 10px;
+    height: 10px;
+}
+
+#row1 ul {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row1 ul img {
+    height: 37px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#btnrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.btns {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #8080804d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slide {
+    height: 35vh;
+    width: 312px;
+    background: white;
+    position: absolute;
+    display: none;
+}
+
+.slide ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#iconrow ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#iconrow ul li:hover{
+    color:blue;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+}
+
+.contents img {
+    height: 90px;
+    width: 100px;
+}
+
+#content2 {
+    display: none;
+}
+
+#content3 {
+    display: none;
+}
+
+#content4 {
+    display: none;
+}
+
+.foot {
+    margin-top: 5px;
+}
+
+.foot ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#footbtn {
+    filter: opacity(75%);
+}

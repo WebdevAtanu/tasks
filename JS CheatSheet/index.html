@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My CheatSheet</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="prism.css">
+	<script src="prism.js"></script>
+</head>
+<body>
+	<div class="banner">My JS CheatSheet</div>
+	<div class="contain">
+		<ol>
+			<li>Printing on console-
+				<pre class="language-js"><code>console.log("hello World");</code></pre>
+			</li>
+			<li>Adding two variable-
+				<pre class="language-js"><code>//variables
+var num1=4;
+var num2=6;
+console.log("The addition of the numbers",num1+num2);//To print on console
+document.write("<br>The addition of the numbers ",num1," and ",num2," is ",num1+num2);//To print on screen</code></pre>
+			</li>
+			<li>Datatypes-
+				<pre class="language-js"><code>// Datatypes
+var number1=10;//Number
+var number2=5.5;//Number
+var string1="This is a string";//String
+var string2='This is also a string';//String
+var marks={ravi:34, ram:50, sam:50.5};//This is object variable/non primitive datatype
+marks["jadu"]=100;//Assign new data into marks
+var arr=[1,2,"ram",4,5];
+let c=BigInt("420");//BigInt datatype
+
+console.log("The addition of the numbers",number1+number2);
+document.write("</br>The addition of the numbers ",number1+number2);
+console.log(string1);
+console.log(string2);
+document.write("</br>",string1);
+document.write("</br>",string2);
+console.log(marks);
+document.write("</br>",marks.ravi);
+console.log(arr);
+document.write("</br>",arr);
+console.log(arr[2]);
+document.write("</br>",arr[2]);</code></pre>
+			</li>
+			<li>Operators-
+				<pre class="language-js"><code>//Operators
+var a=60;
+var b=30;
+console.log("The addition of the numbers",a,"and",b,"is",a+b)
+document.write("</br>The addition of the numbers ",a," and ",b," is ",a+b)
+console.log("The subtraction of the numbers",a,"and",b,"is",a-b)
+document.write("</br>The subtraction of the numbers ",a," and ",b," is ",a-b)
+console.log("The multiplication of the numbers",a,"and",b,"is",a*b)
+document.write("</br>The multiplication of the numbers ",a," and ",b," is ",a*b)
+console.log("The dividation of the numbers",a,"and",b,"is",a/b)
+document.write("</br>The dividation of the numbers ",a," and ",b," is ",a/b)
+a+=5// same as a+5
+// var c=a;//Assignment
+console.log(c);
+console.log(c==b);
+console.log(c<=b);
+console.log(c>=b);
+console.log(a==60? "yes":"no")//Turnery operator will print yes</code></pre>
+			</li>
+			<li>String-
+				<pre class="language-js"><code>// String
+var myname="Atanu";
+var surname=" Mondal";
+console.log(myname+surname);
+var temp=`${myname} is nice person`;
+console.log(temp);
+console.log("Length of name is " +myname.length);
+document.getElementById("pid").innerHTML="This line is come from getElementById";
+let name="atanu";
+console.log(name.length);
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+console.log(name.slice(2));
+console.log(name.slice(2,4));
+console.log(name.replace("ata","santa"));
+console.log(name.concat(" is a good boy"," okay?"));
+let trimFunc="       atanu";
+console.log(trimFunc.trim());</code></pre>
+			</li>
+			
+			<li>Function-
+				<pre class="language-js"><code>//function
+function avg(n1,n2,n3)
+{
+	res=(n1+n2+n3)/3;
+	return res;
+}
+var result=avg(5,10,15);
+console.log(result);</code></pre>
+			</li>
+			<li>Conditional Operators-
+				<pre class="language-js"><code>//Conditional Operators
+var myage=11;
+if (myage>=18&&myage<=29)
+{
+	console.log("You are eligible");
+}
+else if(myage>=30){
+	console.log("You are too old");
+}
+else{
+	console.log("You are a kid now");
+}</code></pre>
+			</li>
+		</ol>
+	</div>
+	
+</body>
+</html>
