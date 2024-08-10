@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.active {
+    font-weight: bold;
+    color: blue;
+}
+
+#data-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    img {
+        width: 40%;
+    }
+
+}
